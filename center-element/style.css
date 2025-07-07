@@ -13,15 +13,25 @@ html, body{
     width: 500px;
     border: 3px solid steelblue;
 
+    /* Mwthod 1 */
     /* These code are use to center the parent */
-    position: absolute;     /* Also we can use the fixed instead of absolute */
+    /*      
+    position: absolute;     Also we can use the fixed instead of absolute. 
     margin: auto;
     inset: 0;
+    */
 
+    /* Mwthod 2 */
     /* These code are use to center the child */
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* Mwthod 3 */
+    /*
+    display: block;
+    margin-inline: auto; 
+    */
 }
 
 
